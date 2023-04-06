@@ -8,6 +8,6 @@ The code is for reproducing Fig. 1. in paper regarding EPM of YSF : https://jour
 
 We can check the code with some figures below :
 
-![alt text](https://github.com/BOS-Bae/EPM-2D-YSF/blob/main/Fig1.png?raw=true){: width="500" height="500"}
+![alt text](https://github.com/BOS-Bae/EPM-2D-YSF/blob/main/Fig1.png?raw=true){: width="300" height="300"}
 
-![alt text](https://github.com/BOS-Bae/EPM-2D-YSF/blob/main/Fig1_inset.png?raw=true){: width="500" height="500"}
+![alt text](https://github.com/BOS-Bae/EPM-2D-YSF/blob/main/Fig1_inset.png?raw=true){: width="300" height="300"}
