@@ -3,7 +3,7 @@ using Random
 using Plots
 
 γ_dot_arr = 10.0 .^(range(-3.0,stop=1.0,length=30))
-L = 4; num_sample = 10
+L = 4; num_sample = 50
 T_leng = 50000; T_max = 5000 # Should be changed
 dt = T_max/T_leng
 
@@ -88,7 +88,6 @@ for num_idx in 1:num_sample
                         τ_e[x,y] = (t + τ_el)
                     end
                 end
-                
             end
             t += dt
         end
