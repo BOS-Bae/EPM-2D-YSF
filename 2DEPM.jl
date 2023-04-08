@@ -69,7 +69,7 @@ for num_idx in 1:num_sample
         for t_idx = 1:T_leng
             # σ_series : time-series of σ (inset of Fig. 1).
             if (γ_idx == 7) σ_series[num_idx, t_idx] += sum(σ)/(L*L) end
-            γ_pl_dot = n .* σ *(1/(μ*τ))
+            γ_pl_dot = n .* σ *(1/(2*μ*τ))
             σ_dot = μ*γ_dot*ones(L,L) + 2*μ*get_integral_term(G_ft, γ_pl_dot)
             σ = σ + dt*σ_dot
 
