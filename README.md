@@ -20,3 +20,9 @@ using LaTeXStrings
 plot(dt*(1:T_leng)[1:8000], σ_series_result[1:8000], label= L"L=4",xlabel = L" t/ \tau ", ylabel = L" \sigma/\sigma_Y " ) 
 ```
 <img src="https://github.com/BOS-Bae/EPM-2D-YSF/blob/main/Figure_1_inset.png" width="400" height="250"/>
+
+### Julia package used
+
+To get the value of integral term by conducting FFT(Fast Fourier Transform), I use FFTW(Julia package).
+
+: https://juliamath.github.io/FFTW.jl/stable/
