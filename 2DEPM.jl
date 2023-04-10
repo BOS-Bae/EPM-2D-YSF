@@ -19,13 +19,9 @@ end
 
 G_ft = zeros(L,L)
 for x in 1:L
-    if (x > L/2) qx = L-x
-    else qx = x
-    end
+    qx = x - L/2
     for y in 1:L
-        if (y > L/2) qy = L-y
-        else qy = y
-        end
+        qy = y - L/2
         
         if ((qx==0) && (qy==0)) G_ft[x,y] = 0
         else G_ft[x,y]=-4*(qx^2)*(qy^2)/(qx^2+qy^2)^2
