@@ -2,7 +2,11 @@
 
 This is the Julia simulation code for elastoplastic model(EPM) of two dimensional yield stress fluids(YSF).
 
-The code is for reproducing Fig. 1. in paper regarding EPM of YSF : https://journals.aps.org/pre/abstract/10.1103/PhysRevE.71.010501.
+The code is for reproducing Fig. 1. in paper regarding EPM of YSF : https://journals.aps.org/pre/abstract/10.1103/PhysRevE.71.010501
+
+, written by Guillemette Picard, Armand Ajdari, François Lequeux, and Lydéric Bocquet.
+
+I write the code in order to study EPM simulation myself.
 
 ### $L=4$
 
